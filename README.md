@@ -54,9 +54,9 @@
 •	Nome do vendedor
   <br>
 •	Telefone do vendedor
-<h3>Admin</h3>
+<h3>7. Admin</h3>
 •	ADMIN (booleano para permissão de administração)
-<h3>7. Loja Física</h3>
+<h3>8. Loja Física</h3>
 •	Código da loja (PK)
   <br>
 •	Nome da loja
@@ -64,7 +64,7 @@
 •	Endereço da loja
   <br>
 •	Telefone da loja
-<h3>8. Relatório de Vendas</h3>
+<h3>9. Relatório de Vendas</h3>
 •	Código do relatório (PK)
   <br>
 •	Código da loja física (FK para Loja Física)
