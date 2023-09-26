@@ -13,7 +13,7 @@
   <br>
 •	Nome (FK) - VARCHAR 
   <br>
-•	CPF (PK) - VARCHAR 
+•	CPF/CNPJ (PK) - VARCHAR 
   <br>
 •	Email - VARCHAR 
   <br>
