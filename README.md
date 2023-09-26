@@ -15,7 +15,7 @@
   <br>
 •	CPF/CNPJ (PK) - VARCHAR 
   <br>
-•	Email - VARCHAR 
+•	Email (PK) - VARCHAR 
   <br>
 •	Endereço - VARCHAR
   <br>
