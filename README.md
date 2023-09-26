@@ -1,6 +1,6 @@
 # BD_ZE_DELIVERY
 <div align="center">
-<img src="https://github.com/Kayquin/BD_ZE_DELIVERY/assets/104329791/07d442a0-b68f-44af-9f0c-b6591afe8f93" width="1000px" />
+<img src="https://github.com/Kayquin/BD_ZE_DELIVERY/assets/104329791/4024b4eb-bece-494d-8820-c8f5acc35733" width="1000px" />
 </div>
 <br> 
 <h2>
@@ -30,21 +30,29 @@
 •	Valor total - DECIMAL 
   <br>
 •	Status (PEDIDO REALIZADO, EM ANDAMENTO, A CAMINHO, ENTREGUE) - VARCHAR
-<h3>3. Produto</h3>
+<h3>3. Itens Pedido</h3>
+• Código Itens Pedido - INT
+<br>
+• Código Pedido - INT
+<br>
+• Código Produto - INT
+<br>
+• Quantidade Produto INT
+<h3>4. Produto</h3>
 •	Código do produto (PK) - INT
   <br>
 •	Nome do produto - VARCHAR
   <br>
 •	Valor do produto - DECIMAL
-<h3>4.	Fornecedor</h3>
+<h3>5.	Fornecedor</h3>
 •	Código do fornecedor (PK) - INT
   <br>
 •	Nome do fornecedor - VARCHAR
-<h3>5.	Estoque</h3>
+<h3>6.	Estoque</h3>
 •	Código do produto (PK, FK para Produto) - INT
   <br>
 •	Quantidade disponível - INT
-<h3>6. Vendedor</h3>
+<h3>7. Vendedor</h3>
 •	Código do vendedor (PK) - INT
   <br>
 •	Código da loja física (FK para Loja Física) - INT
@@ -54,9 +62,9 @@
 •	Nome do vendedor - VARCHAR
   <br>
 •	Telefone do vendedor - VARCHAR
-<br>
+<h3>8. Admin</h3>
 •	ADMIN (booleano para permissão de administração) - BOOLEAN 
-<h3>7. Loja Física</h3>
+<h3>9. Loja Física</h3>
 •	Código da loja (PK) - INT
   <br>
 •	Nome da loja - VARCHAR
@@ -64,7 +72,7 @@
 •	Endereço da loja - VARCHAR 
   <br>
 •	Telefone da loja - VARCHAR
-<h3>8. Relatório de Vendas</h3>
+<h3>10. Relatório de Vendas</h3>
 •	Código do relatório (PK) - INT
   <br>
 •	Código da loja física (FK para Loja Física) - INT
